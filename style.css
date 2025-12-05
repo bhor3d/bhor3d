@@ -163,6 +163,9 @@ footer {
 .redes-sociais a img {
   margin: 0 10px;
   font-size: 32px;
+  /* ensure social icons in header/footer have a consistent size */
+  width: 36px;
+  height: 36px;
   filter: brightness(0) invert(1);
   transition: transform 0.2s ease;
 }
@@ -261,6 +264,10 @@ footer {
       text-indent: 2em;
       text-align: justify;
 
+    }
+
+    .bio br {
+      text-indent: 2em;
     }
      
     .redes {
